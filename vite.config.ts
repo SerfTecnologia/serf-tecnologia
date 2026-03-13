@@ -80,9 +80,10 @@ export default defineConfig({
   root: path.resolve(PROJECT_ROOT, "client"),
 
   build: {
-    outDir: path.resolve(PROJECT_ROOT, "dist"),
+    outDir: "dist",
     emptyOutDir: true,
   },
+  
 
   server: {
     port: 3000,
