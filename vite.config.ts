@@ -80,7 +80,7 @@ export default defineConfig({
   root: path.resolve(PROJECT_ROOT, "client"),
 
 build: {
-  outDir: "dist/public",
+  outDir: "dist",
   emptyOutDir: true,
   },
   
